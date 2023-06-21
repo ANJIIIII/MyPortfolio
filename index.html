@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97828b0acc.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <section class="wrapper">
+        
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="title">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoo.png" alt="logo"  class="logo">
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">MyWorks</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p id="webdesigner">Web Designer</p>
+                <h1 id="mainLine">Hi,I'm <span>Anjali </span> </h1>
+                <p id="below">Welcome to my portfolio </p>
+            </div>
+        </div>
+    </div>
+    <div class="cursor"></div>
+
+    <!-------------about-------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/anj222.jpg"  alt="photo">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">
+                            About Me</h1>
+                        <p class="subtitle2">Hi, I am Anjali Mishra. I am currently pursuing Bachelor of Technology in Computer Science and Engineering from Madan Mohan Malviya University of Technology.I am a passionate tech enthusiast, always eager to learn and pay attention to the smallest details.I approach each opportunity with enthusiasm and determination!
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span class="head">Problem Solving</span><br>using C and C++</li>
+                            <li><span class="head">Web developement</span><br>Frontend developement using html,css and javascript </li>
+                            <li><span class="head">Graphic Designing</span><br>Using adobe photoshop and adobe illustrator</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents"  id="experience">
+                        <ul>
+                            <li><span class="head">2021</span><br>Graphic designing</li>
+                            <li><span class="head">2022</span><br>Designing Web interfaces</li>
+                            <li><span class="head">2023</span><br>Problem Solving</li>
+                        </ul>
+                       </div>
+                         <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="head">High School</span><br>Secured 94 percentage</li>
+                            <li><span class="head">Intermediate</span><br>Secured 94 percentage</li>
+                            <li><span class="head">Graduation</span><br>secured 8.1 cgpa</li>
+                        </ul>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!----------- Servicesssssssssssssssssssss------------>
+    <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+           <div class="grid-item">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designing </h2>
+            <p>
+                I am skilled in HTML, CSS, and JavaScript, allowing me to bring designs to life and ensure seamless functionality across different devices and browsers. I also have experience with responsive design techniques, ensuring that websites adapt and perform optimally on various screen sizes.
+            </p>
+            <a href="#">Learn more</a>
+            </div>
+            <div  class="grid-item">  
+                <i class="fa-solid fa-pen-ruler" ></i>
+            <h2>Graphic Designing </h2>
+            <p>
+                I possess a strong skill set in graphic designing, allowing me to create visually captivating and impactful designs. With a blend of creativity and technical expertise, I bring concepts to life through the use of typography, illustrations, and various design elements.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="grid-item">
+            <i class="fa-solid fa-crop"></i>
+            <h2>Problem solving </h2>
+            <p>
+                I possess a strong aptitude for problem-solving, allowing me to approach challenges with a logical and analytical mindset. I have developed a systematic approach to problem-solving that enables me to break down complex issues into manageable components and identify effective solutions.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+           </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------Portfolio------------------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/design.jpg" height="200px" width="300px" alt="">
+                <div class="layer">
+                    <h1>Posters</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur et culpa officiis in architecto sapiente ullam repellat dolorum dicta unde.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/2.jpg" height="200px" width="300px" alt="">
+                <div class="layer">
+                    <h1>Posters</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur et culpa officiis in architecto sapiente ullam repellat dolorum dicta unde.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/1.jpg" height="200px" width="300px" alt="">
+                <div class="layer">
+                    <h1>Posters</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur et culpa officiis in architecto sapiente ullam repellat dolorum dicta unde.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------------------------------Contact--------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>anjalimishrapps@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9935934485</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100075818080245"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/__anjiiii_.003/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100075818080245"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/anjali-mishra-60a641224/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                 <a href="file:///C:/Users/hp/OneDrive/Desktop/Pratham%20mishra%20resume.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message"  rows="6" placeholder=" your message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="coyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Anni  </p>
+    </div>
+</div>
+
+</div>
+</section>
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        // -------------------animation-------
+        const odserver=new IntersectionObserver((entries)=>{
+            entries.forEach((entry)=>{
+               if(entry.isIntersecting){
+                entry.target.classList.add('show');
+               } 
+            })
+        })
+
+        const hiddenele=document.querySelector('.hidden');
+        hiddenele.forEach((el)=>observer.observe(el));
+
+        </script>
+        <script>
+            var sidemen=document.getElementById("sidemenu");
+            function openmenu(){
+                   sidemen.style.right="0";
+            }
+            function closemenu(){
+                sidemen.style.right="-200px";
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqbLtPOHq-cQSUDaz-5h9ZqhomUJZFQShVCeaM6lWnNs3KsGv-BmsxOfFdm70eoAkM4A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML=" "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- --------------------------------cursor effect------------------------------ -->
+  <script>
+            const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+  </script>
+</body>
+
+</html>
