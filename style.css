@@ -7,6 +7,8 @@ font-family: 'Kaushan Script', cursive;
 font-family: 'Noto Serif Display', serif;
 font-family: 'Rouge Script', cursive;
 font-family: 'Style Script', cursive; */
+
+ 
 /* ----------------------front page------------ */
 #A{
     font-family: 'Alex Brush', cursive;
@@ -234,6 +236,8 @@ h1{
 flex-wrap: wrap;
 }
 .about-col-1{
+  /* position: fixed; */
+  position: sticky;
     flex-basis: 35%;
 }
 .about-col-1 img{
@@ -244,10 +248,21 @@ flex-wrap: wrap;
 .about-col-2{
     flex-basis: 0px;
 }
+.containerA{
+  padding-bottom: 0%;
+}
 .row:after{
     content: "";
     display: table;
     clear: both;
+}
+.sub-titleA{
+  white-space: nowrap;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-left: 0%;
+    padding-bottom: 3%;
 }
 .sub-title{
     white-space: nowrap;
@@ -257,7 +272,8 @@ flex-wrap: wrap;
 }
 .subtitle2{
     margin-top: 10px;
-    white-space: pre-wrap;
+    margin-right: 0%;
+    /* white-space: pre-wrap; */
 }
 .tab-titles{
     display: flex;
@@ -305,13 +321,14 @@ flex-wrap: wrap;
 #services{
     padding: 30px 0;
 
+   
 }
 .services-list{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px;
+  align-items: center;
     margin-top: 60px;
 }
+
+
 .grid-item{
     padding: 20px;
     /* text-align: center; */
@@ -330,13 +347,40 @@ a{
 }
 .services-list div{
     /* background: #262626; */
-    padding: 40px;
+    padding:30px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s,transform 0.5s;
 
 }
+.skill {
+  /* display: flex; */
+  align-items: center;
+  gap: 150px; /* Adjust the gap between icons */
+  padding: 20px;
+  /* background-color: #f0f0f0; */
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skill i:last-child {
+  margin-right: 0; /* Remove margin for the last icon */
+}
+.skill i {
+  font-size: 8em; /* Adjust icon size */
+  color: #c4c1c1; /* Adjust icon color */
+  margin-right: 50px; 
+}
+.skill i:last-child {
+  margin-right: 0; /* Remove margin for the last icon */
+}
+.skill sup {
+  font-size: 1em; /* Adjust the size of the superscript */
+  vertical-align: super;
+}
+
 .grid-item{
     background-color: #262626;
     box-shadow: 0 0 20px;
@@ -347,9 +391,11 @@ a{
     margin-bottom: 30px;
 }
 .services-list div h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    margin-left: 35%;
 }
 .services-list div a{
     text-decoration: none;
@@ -365,7 +411,8 @@ a{
 
 /* ----------------------------------Portfolio---------------------------------------------- */
 #portfolio{
-    padding: 50px 0;
+    padding-bottom: -1%;
+    margin-bottom: -7%;
 }
 
 .work-list{
