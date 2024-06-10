@@ -18,7 +18,7 @@
 // }
 
 var swiper = new swiper('.blog-slider', {
-    spaceBetween: 30,
+    spaceBetween: 31,
     effect: 'fade',
     loop: true,
     mousewheel: {
