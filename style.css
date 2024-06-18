@@ -15,29 +15,41 @@ font-family: 'Style Script', cursive; */
 }
 #mainLine{
     font-family: 'Inria Serif', serif;
-    margin-left: -500px;
-    margin-left: 20px;
+    /* margin-left: -500px;
+    margin-left: 20px; */
 }
 #webdesigner{
     font-family: 'Style Script', cursive;
-    font-size: 50px;
-    margin-left: 50px;
+    /* font-size: 50px;
+    margin-left: 50px; */
 }
 #below{
 font-family: 'Noto Serif Display', serif;
     font-size: 35px;
-    margin-top: 30px;
-    margin-left: -140px;
+    /* margin-top: 30px;
+    margin-left: -140px; */
     letter-spacing: 15px;
 }
 .header-text{
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    margin: 0 auto;
     font-size: 30px;
     align-items: center;
     align-content: center;
-    margin-left: 350px;
+    padding: 6ch;
+    text-align: center;
+    line-height: 70px;
+    /* margin-left: 350px; */
     /* margin-bottom: 5000px; */
     
+    }
+    .header-text h1{
+        font-size: 4ch;
+        /* margin-top: 20px; */
+        /* font-family: 'Style Script', cursive; */
+    }
+    .header-text h1 span{
+        color: #acd41b;
     }
 /* -----------------------front---------- */
 *{
@@ -114,22 +126,8 @@ nav ul li a::after{
 nav ul li a:hover::after{
 width: 100%;
 }
-.header-text{
-margin-top: 15%;
-font-size: 30px;
-align-items: center;
-align-content: center;
-margin-left: 350px;
 
-}
-.header-text h1{
-    font-size: 60px;
-    /* margin-top: 20px; */
-    /* font-family: 'Style Script', cursive; */
-}
-.header-text h1 span{
-    color: #acd41b;
-}
+
 h1{
     /* font-family: 'Rouge Script', cursive; */
     /* font-family: 'Style Script', cursive; */
@@ -241,8 +239,10 @@ flex-wrap: wrap;
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 100%;
-    height: 100%;
+    height: 470px;
+    width: 330px;
+    /* width: 100%;
+    height: 100%; */
     border-radius: 15px;
 }
 .about-col-2{
@@ -354,6 +354,7 @@ a{
     transition: background 0.5s,transform 0.5s;
 
 }
+
 .skill {
   /* display: flex; */
   align-items: center;
@@ -564,20 +565,24 @@ nav .fa-solid{
 
 
 
-@media only screen and (max-width :600px){
+@media  (max-width :400px){
     /* html{
         background-color: radial-gradient(ellipse at bottom, #2997e6 0%,#090a0f 100%);
     } */
+     *{
+        align-items: center;
+     }
     .header-text{
-        margin-top: 100%;
         font-size: 16px;
+        line-height: 6ch;
     }
-    .header-text h1{
-        font-size: 30px;
+    .header-text mainline{
+        font-size: 0px;
     }
     nav .fa-solid{
         display: block;
         font-size: 25px;
+        margin-right: -60px;
     }
 nav ul{
     background: #acd41b;
@@ -600,8 +605,40 @@ nav ul .fa-solid{
     left: 25px;
     cursor: pointer;
 }
+#services{
+    width: 100%;
+}
+#title{
+    width: 100%;
+}
+#header{
+    width: 100%;
+}
+#about{
+    width: 100%;
+}
+#portfolio{
+    width: 100%;
+}
+#contact{
+    width: 100%;
+}
+.grid-item h2{
+    font-size: x-small;
+    text-align: center;
+    margin-left: 0px;
+}
 .subtitle{
     font-size: 40px;
+}
+.skill img{
+    height: 30px;
+    width: 30px;
+}
+.skill i{
+    /* height: 9px; */
+    width: 30px;
+    gap: 20px;
 }
 .about-col-1,.about-col-2{
     flex-basis: 100%;
@@ -611,6 +648,10 @@ nav ul .fa-solid{
 }
 .about-col-2{
     font-size: 14px;
+}
+.about-col-2 img{
+    height: auto;
+    width: auto;
 }
 .tab-links{
     font-size: 16px;
@@ -627,7 +668,9 @@ nav ul .fa-solid{
 }
 .coyright{
     font-size: 14px;
+    width: 120%;
 }
+
 }
 
 
