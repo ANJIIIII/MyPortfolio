@@ -606,7 +606,7 @@ nav ul .fa-solid{
     cursor: pointer;
 }
 #services{
-    width: 100%;
+    width: 120%;
 }
 #title{
     width: 100%;
@@ -632,8 +632,8 @@ nav ul .fa-solid{
     font-size: 40px;
 }
 .skill img{
-    height: 30px;
-    width: 30px;
+    height: 10px;
+    width: 10px;
 }
 .skill i{
     /* height: 9px; */
